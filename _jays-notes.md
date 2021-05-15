@@ -1,3 +1,4 @@
+
 Download region CSVs
 - https://www.google.com/covid19/mobility/
 
@@ -28,6 +29,50 @@ Select ```Use row 2 as headers```
 Select ```Use column A as labels```
 - Remove series to keep only a few (e.g. Ontario, Alberta, Nova Scotia)
 
+## Canadian mobility chart: 
+1. Interactive Timeseries chart that shows changes in mobility for all of Canada (across the 4 different categories)
+
+### Create a Pivot Table
+- On the ```All Data``` tab, create a new pivot table (```>Data>Pivot Table```). Insert it into a new sheet.  
+<img src="assets/img/pivot-table.PNG" alt="Create pivot table window in Google Sheets" width="300" style="border: 1px solid darkgrey">  
+
+* For **Rows**, select the ```date``` column. Uncheck *Show totals*.
+* Leave **Columns** empty (don't add anything).
+* For **Values**, add each of the following in succession (keep all summarized by SUM):
+  - ```retail_and_recreation_percent_change_from_baseline```.
+  - ```grocery_and_pharmacy_percent_change_from_baseline```
+  - ```parks_percent_change_from_baseline```	
+  - ```transit_stations_percent_change_from_baseline```	
+  - ```workplaces_percent_change_from_baseline```
+  - ```residential_percent_change_from_baseline```
+* For **Filters**, add the ```sub_region_1``` column. In the **Status** dropdown, make sure only ```(Blanks)``` is checked.  
+- Rename the new sheet created for the pivot table. Give it a distiguishing name (e.g. *Canada mobility*)
+- highlight cells B1 to G1, and use the *wrap text* button to wrap text to make it more readable.
+- Rename each variable name in the sheet to make it more readable. e.g.: 
+  - In cell B1, rename ```SUM of retail_and_recreation_percent_change_from_baseline``` to ```retail and recreation```
+  - rename ```SUM of grocery_and_pharmacy_percent_change_from_baseline``` to ```grocery and pharmacy```
+  - etc.
+
+### Create a timeline chart
+- Click on Insert > Chart 
+- Select the type of chart to be *Timeline*
+- For ```Data range``` highlight the full extent of the data (including the first header row with variable names, e.g. A1:G453 in this example).
+- Check ```Use row 1 as headers```
+- Make sure ```Use column A as labels``` is checked.
+
+### Customize the chart
+*Note: There's not a lot of customization that you can do on a Timeline chart*
+- Experiment with changing the Fill opacity, Line thickness, and Date format. 
+
+### Publish the figure to embed it in a webpage
+ 
+
+
+
+
+## Provincial comparison
+
+## Ontario county comparison
 
 * Create new pivot table (```>Data>Pivot Table```). Insert it into a new sheet.  
 <img src="assets/img/create-pivot-table.PNG" alt="Create pivot table window in Google Sheets" width="300" style="border: 1px solid darkgrey">  
@@ -74,3 +119,14 @@ Publish the chart
 <iframe width="1031" height="637" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT0QsBupeGwVggn9tHtI9MtlK9L9dQBbc9Hk7cjbSXR0u3CYAM2YpS6RTyCGhx33mK1cASl0hrnjyFT/pubchart?oid=1991365340&amp;format=interactive"></iframe>
 ```
 
+## Provincial summaries
+* Create new pivot table (```>Data>Pivot Table```). Insert it into a new sheet.  
+<img src="assets/img/create-pivot-table.PNG" alt="Create pivot table window in Google Sheets" width="300" style="border: 1px solid darkgrey">  
+
+- In the Pivot Table Editor, set the following values: 
+|Element|Value|
+|:---:|:---:|
+|Rows|select ```sub_region1```; uncheck ```Show totals```|
+|Columns| leave empty|
+|Values| select ```retail_and_recreation_percent_change_from_baseline```; Summarise by AVERAGE|
+|Filters| Select ```sub_region_2```; Select only ```(Blanks)```|
