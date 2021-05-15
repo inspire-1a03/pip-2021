@@ -1,4 +1,11 @@
+# COVID-19 Case data
+https://covid19tracker.ca/
 
+
+
+
+
+# Mobility Data
 Download region CSVs
 - https://www.google.com/covid19/mobility/
 
@@ -123,7 +130,8 @@ Publish the chart
 * Create new pivot table (```>Data>Pivot Table```). Insert it into a new sheet.  
 <img src="assets/img/create-pivot-table.PNG" alt="Create pivot table window in Google Sheets" width="300" style="border: 1px solid darkgrey">  
 
-- In the Pivot Table Editor, set the following values: 
+- In the Pivot Table Editor, set the following values:  
+
 |Element|Value|
 |:---:|:---:|
 |Rows|select ```sub_region1```; uncheck ```Show totals```|
