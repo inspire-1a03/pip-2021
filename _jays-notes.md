@@ -69,7 +69,7 @@ Publish the chart
 - Click the three dots at the top-right of the figure and select ```Publish the chart```
 - Click the ```Embed``` tab. Make sure that your chart is selected (it should be by default). Leave the chart as ```interactive```
 - Click ```Publish```, and OK at the prompt
-- Copy all embed code text that shows up in the dialog box. e.g. 
+- Copy all embed code text that shows up in the dialog box and paste it into a empty text document for later. e.g.:
 ```
 <iframe width="1031" height="637" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT0QsBupeGwVggn9tHtI9MtlK9L9dQBbc9Hk7cjbSXR0u3CYAM2YpS6RTyCGhx33mK1cASl0hrnjyFT/pubchart?oid=1991365340&amp;format=interactive"></iframe>
 ```
