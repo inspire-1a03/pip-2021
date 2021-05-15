@@ -133,8 +133,8 @@ Publish the chart
 - In the Pivot Table Editor, set the following values:  
 
 |Element|Value|
-|:---:|:---:|
-|Rows|select ```sub_region1```; uncheck ```Show totals```|
+|:---|:---|
+|Rows|1. select ```sub_region1``` <br> 2. uncheck ```Show totals```|
 |Columns| leave empty|
-|Values| select ```retail_and_recreation_percent_change_from_baseline```; Summarise by AVERAGE|
-|Filters| Select ```sub_region_2```; Select only ```(Blanks)```|
+|Values| 1. select ```retail_and_recreation_percent_change_from_baseline```<br> 2. Summarise by AVERAGE|
+|Filters| 1. Select ```sub_region_2```; 2. Select only ```(Blanks)```|
