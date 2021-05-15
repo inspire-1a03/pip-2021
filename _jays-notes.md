@@ -68,6 +68,8 @@ The pivot table settings are summarized below in table form:
 |Values| Add each of the following in succession (keep all summarized by SUM): <br> 1. ```retail_and_recreation_percent_change_from_baseline``` <br> 2. ```grocery_and_pharmacy_percent_change_from_baseline``` <br> 3. ```parks_percent_change_from_baseline``` <br> 4. ```transit_stations_percent_change_from_baseline``` <br> 5. ```workplaces_percent_change_from_baseline``` <br> 6. ```residential_percent_change_from_baseline```|
 |Filters| 1. Select ```sub_region_1``` <br> 2. In the **Status** dropdown, select only ```(Blanks)```|
 
+<img src="assets/img/pivot-table-editor.PNG" alt="Google Sheets pivot table editor" width="300" style="border: 1px solid darkgrey">  
+
 - Rename the new sheet containing the pivot table. Give it a distiguishing name (e.g. ***Canada mobility***)
 - Highlight cells B1 to G1, and use the *wrap text* button to wrap text to make it more readable.
 - Rename each variable name (in row 1 of the sheet) to make it more readable. e.g.: 
