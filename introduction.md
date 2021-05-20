@@ -18,7 +18,7 @@ nav_order: 2
 # Deliverables
 
 |Deliverable|Weight (/100)|Criteria|Due Date|
-|:---:|:---:|:---:|:---:|
+|:---|---:|:---|---:|
 |Exercise 1: Spreadsheets|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
 |Exercise 2: GIS|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
 |Final Exercise|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
