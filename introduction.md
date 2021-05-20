@@ -30,7 +30,7 @@ nav_order: 2
 
 
 
-
+<!--
 ## 1. Workshop Introduction
 Follow along with the introductory video (or slides).
 
@@ -48,3 +48,4 @@ When you're ready, navigate to your [first lesson](lesson1) to start using GitHu
 <iframe width="719" height="480" src="https://www.youtube.com/embed/w3jLJU7DT5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 <br>
+-->
