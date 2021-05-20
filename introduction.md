@@ -21,8 +21,8 @@ nav_order: 2
 |:---:|:---:|:---:|:---:|
 |Exercise 1: Spreadsheets|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
 |Exercise 2: GIS|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
-|Final results website quality|10|- Elements display correct (images, pages, text) (/5) <br> - Formatting (/5) |31-May|
 |Final Exercise|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
+|Final module website|10|- Elements display correct (images, pages, text) (/5) <br> - Formatting (/5) |31-May|
 
 
 
