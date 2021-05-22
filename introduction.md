@@ -14,7 +14,8 @@ nav_order: 2
 <script type='text/javascript'>                    var divElement = document.getElementById('viz1621708555453');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 -->
 
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/vax-rates/Dashboard1?:embed=yes&:display_count=yes&:showVizHome=no" width = '650' height = '450'></iframe> 
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/vax-rates/Dashboard1?:embed=yes&:display_count=yes&:showVizHome=no" width = '650' height = '450' scrolling='yes'></iframe> 
+
 
 
 
@@ -23,17 +24,13 @@ Welcome to **Patterns in the Pandemic**.
 
 Whether they are being relayed to us through news outlets, government agencies, social media, or our friends and family, COVID has many narratives. But what stories do the data tell? What can we learn from trends and patterns in the multitudes of COVID data that is freely available? And perhaps more importantly, what (or who) is not included or represented properly in the data, or just generally misunderstood? 
 
-In this module, students will have an opportunity to explore these questions by learning and apply the basics of data analysis and visualization in the service of synthesizing publicly available datasets from sources like Google, the Government of Ontario, and Statistics Canada. Using a variety of free software tools (including Google Sheets, Tableau, QGIS, and GitHub), students will create a range of charts, maps, and tables that illustrate Ontario’s COVID trends and patterns on a self-built webpage. 
+In this module, students will have an opportunity to explore these questions by learning and apply the basics of data analysis and visualization in the service of synthesizing publicly available datasets from sources like Google, the Government of Ontario, and Statistics Canada. Using a variety of free software tools (including Google Sheets, Tableau, and GitHub), students will create a range of interactive charts, maps, and tables that illustrate Ontario’s COVID trends and patterns on a self-built website. 
 
 ## Module Objectives
 1.	Promote awareness of a variety of publicly available datasets and data sources; improve understanding of their uses and limitations.
-2.	Using hands-on, step-by-step instruction, develop analysis and visualization skills using a variety of free applications (Google Sheets, Tableau, QGIS)
+2.	Using hands-on, step-by-step instruction, develop analysis and visualization skills using a variety of free applications (Google Sheets, Tableau, GitHub)
 3.	Build experience and expertise producing high-quality figures and visualizations to convey clear and concise information about complex topics. 
 4.	Using GitHub and GitHub Pages, explore ways in which data, code, and research findings can be shared with other researchers and members of the public alike. 
-
-This is a map: 
-
-<iframe src="https://library.mcmaster.ca/maps/aerialphotos/" width="800" height="540"> </iframe>
 
 
 ## Module Structure and Schedule 
@@ -47,7 +44,7 @@ On Tuesday, Wednesday, and Thursday, Jay will be available for drop-in help from
 |Tue., 25-May|19:00 - 21:00|**(optional)** drop-in session|in-class|
 |Wed., 26-May|--|Introduction to GitHub and Markdown|individually|
 |Wed., 26-May|19:00 - 21:00|**(optional)** drop-in session|in-class|
-|Thu., 27-May|--|Mapping COVID with GIS|individually|
+|Thu., 27-May|--|Analysis with Tableau|individually|
 |Thu., 27-May|19:00 - 21:00|**(optional)** drop-in session|in-class|
 |Fri., 28-May|--|Final deliverable working time|individually|
 
@@ -57,7 +54,7 @@ All deliverables will be web pages within a larger module website that you will 
 |Deliverable|Weight|Criteria|Due Date|
 |:---|---:|:---|---:|
 |Exercise 1: Spreadsheets|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
-|Exercise 2: GIS|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
+|Exercise 3: Tableau|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
 |Final Exercise|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
 |Final module website|10|- Elements display correct (images, pages, text) (/5) <br> - Formatting (/5) |31-May|
 
