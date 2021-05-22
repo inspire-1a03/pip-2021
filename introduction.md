@@ -9,13 +9,13 @@ nav_order: 2
 -->
 
 # Module Introduction
+Hello and Welcome to **Patterns in the Pandemic**. 
+
+## Learning Objectives
 
 
-# Learning Objectives
 
-
-
-# Deliverables
+## Deliverables
 
 |Deliverable|Weight (/100)|Criteria|Due Date|
 |:---|---:|:---|---:|
@@ -25,7 +25,20 @@ nav_order: 2
 |Final module website|10|- Elements display correct (images, pages, text) (/5) <br> - Formatting (/5) |31-May|
 
 
+## Schedule 
+With the exception of the introductory class, the rest of the exercises for this module will be carried out asynchronously. You'll be provided with instructions (both in text and video) to complete the exercises, and it will be up to you to complete the exercises during the day.  
+On Tuesday, Wednesday, and Thursday, Jay will be available for drop-in help from 19:00 - 21:00 (7:00 - 9:00 PM) in the module Teams channel.  
 
+|Date|Time|Activities|in-class or individually| 
+|---:|---:|:---|:---|
+|Tuesday, 25-May|9:00|Introduction to the module|in-class|
+|Tuesday, 25-May|--|Exploring COVID-19 data with Google Sheets|individually|
+|Tuesday, 25-May|19:00 - 21:00|**(optional)** drop-in session|in-class|
+|Wednesday, 26-May|--|Introduction to GitHub and Markdown|individually|
+|Wednesday, 26-May|19:00 - 21:00|**(optional)** drop-in session|in-class|
+|Thursday, 27-May|--|Mapping COVID with GIS|individually|
+|Thursday, 27-May|19:00 - 21:00|**(optional)** drop-in session|in-class|
+|Friday, 28-May|--|Final deliverable working time|individually|
 
 
 
