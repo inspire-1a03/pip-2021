@@ -15,6 +15,13 @@ nav_order: 3
 - Navigate to [GitHub](https://github.com) and sign up for an account if you don't already have one. 
 - After registering, sign in to your account.
 
+## 2. Install QGIS 
+
+## 3. Install Tableau Public 
+
+- **Note:** If you are interested, students can sign up for the full version of Tableau [here](https://www.tableau.com/academic/students#form)
+
+
 ## 2a. Install GitHub Desktop (for Windows or Mac users)
 - If you are using a **Windows** or **Mac** computer, download and install [GitHub Desktop](https://desktop.github.com/)
   - More guidance can be found in guides from [GitHub](https://docs.github.com/en/desktop).

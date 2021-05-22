@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Lesson 4 - GitHub Desktop
-nav_order: 7
+title: GitHub Desktop
+nav_order: 4
+parent: Exercise 2 - GitHub
 ---
 
 # Lesson 4 - Sync with GitHub Desktop (and maybe git) 

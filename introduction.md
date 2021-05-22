@@ -9,7 +9,7 @@ nav_order: 2
 -->
 
 # Module Introduction
-Hello and Welcome to **Patterns in the Pandemic**. 
+Welcome to **Patterns in the Pandemic**. 
 
 Whether they are being relayed to us through news outlets, government agencies, social media, or our friends and family, COVID has many narratives. But what stories do the data tell? What can we learn from trends and patterns in the multitudes of COVID data that is freely available? And perhaps more importantly, what (or who) is not included or represented properly in the data, or just generally misunderstood? 
 
@@ -32,14 +32,14 @@ On Tuesday, Wednesday, and Thursday, Jay will be available for drop-in help from
 
 |Date|Time|Activities|in-class or individually| 
 |---:|---:|:---|:---|
-|Tuesday, 25-May|9:00|Introduction to the module|in-class|
-|Tuesday, 25-May|--|Exploring COVID-19 data with Google Sheets|individually|
-|Tuesday, 25-May|19:00 - 21:00|**(optional)** drop-in session|in-class|
-|Wednesday, 26-May|--|Introduction to GitHub and Markdown|individually|
-|Wednesday, 26-May|19:00 - 21:00|**(optional)** drop-in session|in-class|
-|Thursday, 27-May|--|Mapping COVID with GIS|individually|
-|Thursday, 27-May|19:00 - 21:00|**(optional)** drop-in session|in-class|
-|Friday, 28-May|--|Final deliverable working time|individually|
+|Tue., 25-May|9:00|Introduction to the module|in-class|
+|Tue., 25-May|--|Exploring COVID-19 data with Google Sheets|individually|
+|Tue., 25-May|19:00 - 21:00|**(optional)** drop-in session|in-class|
+|Wed., 26-May|--|Introduction to GitHub and Markdown|individually|
+|Wed., 26-May|19:00 - 21:00|**(optional)** drop-in session|in-class|
+|Thu., 27-May|--|Mapping COVID with GIS|individually|
+|Thu., 27-May|19:00 - 21:00|**(optional)** drop-in session|in-class|
+|Fri., 28-May|--|Final deliverable working time|individually|
 
 ## Deliverables and Assessment
 All deliverables will be web pages within a larger module website that you will build throughout the exercises.  

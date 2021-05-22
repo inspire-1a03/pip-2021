@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Lesson 1 - Learn GitHub
-nav_order: 4
+title: Introduction to GitHub
+nav_order: 1
+parent: Exercise 2 - GitHub
 ---
 
 <!-- Edit the content below for the workshop in question. Once you're ready to publish, remove the comment characters e.g. "<!--" at the start and end -->
