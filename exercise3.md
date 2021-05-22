@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Exercise 3 - QGIS
+title: Exercise 3 - Tableau
 nav_order: 6
 has_children: true
 ---

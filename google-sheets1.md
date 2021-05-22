@@ -68,13 +68,16 @@ Inspect the trends for the three variables. Are the trends synchronized with eac
 
 > Q2: How has Ontario responded to COVID in terms of testing and vaccinations? 
 
-- From the ```ON``` tab, plot 
+- From the ```ON``` tab, plot ```data >> total_tests``` and ```data >> total_vaccinations```
+- The magnitude of these numbers are very large. They're also not as illustrative as possible, since what we're really interested in is how many tests or vaccinations have been delivered per capita. We can improve this by dividing by Ontario's population and multiplying by a standard unit (like 100 or 100000). 
  
- 
-- According to [Statistics Canada quarterly population estimates](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000901), Ontario's population in Q1 of 2021 was 14,755,211. Let's use this for our calculations.  
+- According to [Statistics Canada quarterly population estimates](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1710000501), Ontario's population in mid-2020 was 14,734,014. This will have changed a small bit since then, but let's use this for our calculations.  
+
+- 
 
 
-
+vaccinations: ``` =100*(S2/14734014)```
+tests: ```=100*(O2/14734014)```
 ## 
 
 > Q3: How do vaccination rates over time compare between provinces and territories? 
