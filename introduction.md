@@ -23,7 +23,7 @@ In this module, students will have an opportunity to explore these questions by 
 
 This is a map: 
 
-<iframe src="https://library.mcmaster.ca/maps/aerialphotos/" width="800"(adjust for yourself) height="540"(adjust for yourself)> </iframe>
+<iframe src="https://library.mcmaster.ca/maps/aerialphotos/" width="800" height="540"> </iframe>
 
 
 ## Module Structure and Schedule 

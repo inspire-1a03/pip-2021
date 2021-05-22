@@ -27,9 +27,7 @@ Each of these variables are listed as a function of time -- each row is a date (
 **Objective**: Create an interactive Timeseries chart that shows changes in mobility for all of Canada (across the 6 different mobility categories)
 
 
-This is a map: 
 
-<iframe src="https://library.mcmaster.ca/maps/aerialphotos/" width="800"(adjust for yourself) height="540"(adjust for yourself)> </iframe>
 
 
 # Mobility Data
