@@ -11,23 +11,24 @@ nav_order: 2
 # Module Introduction
 Hello and Welcome to **Patterns in the Pandemic**. 
 
-## Learning Objectives
+Whether they are being relayed to us through news outlets, government agencies, social media, or our friends and family, COVID has many narratives. But what stories do the data tell? What can we learn from trends and patterns in the multitudes of COVID data that is freely available? And perhaps more importantly, what (or who) is not included or represented properly in the data, or just generally misunderstood? 
+
+In this module, students will have an opportunity to explore these questions by learning and apply the basics of data analysis and visualization in the service of synthesizing publicly available datasets from sources like Google, the Government of Ontario, and Statistics Canada. Using a variety of free software tools (including Google Sheets, Tableau, QGIS, and GitHub), students will create a range of charts, maps, and tables that illustrate Ontario’s COVID trends and patterns on a self-built webpage. 
+
+## Module Objectives
+1.	Promote awareness of a variety of publicly available datasets and data sources; improve understanding of their uses and limitations.
+2.	Using hands-on, step-by-step instruction, develop analysis and visualization skills using a variety of free applications (Google Sheets, Tableau, QGIS)
+3.	Build experience and expertise producing high-quality figures and visualizations to convey clear and concise information about complex topics. 
+4.	Using GitHub and GitHub Pages, explore ways in which data, code, and research findings can be shared with other researchers and members of the public alike. 
+
+This is a map: 
+
+<iframe src="https://library.mcmaster.ca/maps/aerialphotos/" width="800"(adjust for yourself) height="540"(adjust for yourself)> </iframe>
 
 
-
-## Deliverables
-
-|Deliverable|Weight (/100)|Criteria|Due Date|
-|:---|---:|:---|---:|
-|Exercise 1: Spreadsheets|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
-|Exercise 2: GIS|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
-|Final Exercise|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
-|Final module website|10|- Elements display correct (images, pages, text) (/5) <br> - Formatting (/5) |31-May|
-
-
-## Schedule 
+## Module Structure and Schedule 
 With the exception of the introductory class, the rest of the exercises for this module will be carried out asynchronously. You'll be provided with instructions (both in text and video) to complete the exercises, and it will be up to you to complete the exercises during the day.  
-On Tuesday, Wednesday, and Thursday, Jay will be available for drop-in help from 19:00 - 21:00 (7:00 - 9:00 PM) in the module Teams channel.  
+On Tuesday, Wednesday, and Thursday, Jay will be available for drop-in help from 19:00 - 21:00 (7:00 - 9:00 PM) in the module Teams channel. **The drop-in sessions are completely optional.**
 
 |Date|Time|Activities|in-class or individually| 
 |---:|---:|:---|:---|
@@ -39,6 +40,16 @@ On Tuesday, Wednesday, and Thursday, Jay will be available for drop-in help from
 |Thursday, 27-May|--|Mapping COVID with GIS|individually|
 |Thursday, 27-May|19:00 - 21:00|**(optional)** drop-in session|in-class|
 |Friday, 28-May|--|Final deliverable working time|individually|
+
+## Deliverables and Assessment
+All deliverables will be web pages within a larger module website that you will build throughout the exercises.  
+
+|Deliverable|Weight|Criteria|Due Date|
+|:---|---:|:---|---:|
+|Exercise 1: Spreadsheets|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
+|Exercise 2: GIS|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
+|Final Exercise|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
+|Final module website|10|- Elements display correct (images, pages, text) (/5) <br> - Formatting (/5) |31-May|
 
 
 
