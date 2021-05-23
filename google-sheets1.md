@@ -124,3 +124,4 @@ A table has been started for you in the ```Provincial Summary``` sheet. Your tas
   - To save the file as a csv, click ```File > Download > Comma-separated values (.csv, current sheet)```
 <img src="assets/img/save-csv.png" alt="Save file as csv" width="400" style="border: 1px solid darkgrey">  
 
+**All finished?** Head to [lesson 2](google-sheets2) to explore a different COVID-related dataset. 

@@ -9,15 +9,33 @@ parent: Exercise 1 - Google Sheets
 In this lesson, we'll be working with [Google Community Mobility Report data](https://www.google.com/covid19/mobility/). These datasets are compiled by Google from location-based apps (like Google Maps), and the purpose is: 
 > ... to provide insights into what has changed in response to policies aimed at combating COVID-19. The reports chart movement trends over time by geography, across different categories of places such as retail and recreation, groceries and pharmacies, parks, transit stations, workplaces, and residential.
 
+We can use this data to explore Canadians' changing activities during various stages of the pandemic and in different regions of the country. In your final exercise, you'll be asked to think about ways that this data can be combined with case and vaccination data (from the last lesson) to produce greater insight of the interplay between public policy, citizen behaviour, and COVID-19 cases and fatalities. 
 
+**Note** that we're only going to do a bit of analysis on this dataset--the rest will be carried out in Tableau during [Exercise 3](exercise3).
 
-## Get the data
+## Get the data - the easy way (recommended)
 
+**Note** that this data has already been downloaded and prepared for you in a Google Sheet. Click [here](https://docs.google.com/spreadsheets/d/1B6Ear2sZ890amEHA-JVVtbZnfxzDkorj0gP7B_7lSdY/copy) to make a working copy of this data. 
 
+## Get the data -- the hard way (completely optional)
+**Completely Optional**: If you would like to try to create this data on your own, follow the steps below: 
+1. Download the ```Region CSVs``` file from the [Google Community Mobility Report data](https://www.google.com/covid19/mobility/) site. Unzip it. 
+1. Use a text editor (I recommend [Notepad++](https://notepad-plus-plus.org/downloads/v7.9.2/) to open the 2020 and 2021 Canadian files (```2020_CA_Region_Mobility_Report``` and ```2021_CA_Region_Mobility_Report```).
+1. Copy the data values (i.e. everything but the top row) of the 2021 sheet to the bottom of the 2020 sheet. 
+1. On the combined file, change the encoding to **UTF-8 BOM** (see screenshot below). This is necessary to make accented characters display properly in Google Sheets.  
+<img src="assets/img/notepad-encoding.png" alt="Change document encoding in Notepad++" width="300" style="border: 1px solid darkgrey">
 
-**Note** that this data has already been downloaded and prepared for you in a Google Sheet. Click [here]()to make a working copy of this data. 
+1. Save your combined mobility file.   
+1. Create a new Google Sheet. Give it an appropriate name (e.g. INSPIRE-PIP-Mobility)
+1. Go to ```File > Import``` and upload the combined mobility file. 
+1. In the Import File box, select the following: 
+  - ```Import location``` : ```Replace spreadsheet```
+  - ```Separator type``` : ```Detect automatically```
+  
+<img src="assets/img/import-file.png" alt="Google sheets import dialog box" width="300" style="border: 1px solid darkgrey">  
+  
+1. Click ```Import data```
 
-If you would like to see the extra work Jay had to do to get the data, watch the video below.
 
 <!--
 Download region CSVs

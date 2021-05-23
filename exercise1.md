@@ -8,6 +8,8 @@ has_children: true
 # Exercise 1: Exploring COVID-19 patterns with Google Sheets
 In this exercise, you will download some Canadian COVID data, explore it, and begin to perform some analyses using Google Sheets. You will create a number of figures that will be later inserted into your project website (as part of your work in [Exercise 2](exercise2)) as interactive charts. 
 
+For a lot of data analysis and visualization work, spreadsheets are an excellent place to start--they provide an intuitive visual interface to explore the data, have lots of (often unknown) functions to manipulate and analyze data, and can make some quick and moderately-customizable charts.
+
 ## What you will need
 - Google Sheets (i.e. a working Google account). 
 
