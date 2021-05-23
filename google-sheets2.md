@@ -69,20 +69,17 @@ We'll use the ***Pivot Table*** function in Google Sheets to pull out only Canad
 1. From the ```All Data``` sheet, press ```Ctrl + A``` to select all non-empty cells. 
 1. Click on ```Data > Pivot Table```. Choose to insert it into a new sheet.  
 <img src="assets/img/pivot-table.png" alt="Create pivot table window in Google Sheets" width="300" style="border: 1px solid darkgrey">  
-1. In the **Pivot table editor** that appears in the new sheet, make the following selections:
- 
+1. In the **Pivot table editor** that appears in the new sheet, make the following selections:  
 |Element|Value|
 |:---|:---|
 |Rows|1. Add ```date``` <br> 2. Uncheck ```Show totals```|
 |Columns| *leave empty* |
 |Values| Add each of the following in succession (keep all summarized by SUM): <br> 1. ```retail_and_recreation_percent_change_from_baseline``` <br> 2. ```grocery_and_pharmacy_percent_change_from_baseline``` <br> 3. ```parks_percent_change_from_baseline``` <br> 4. ```transit_stations_percent_change_from_baseline``` <br> 5. ```workplaces_percent_change_from_baseline``` <br> 6. ```residential_percent_change_from_baseline```|
-|Filters| 1. Add ```sub_region_1``` <br> 2. In the **Status** dropdown, select only ```(Blanks)```|
-
+|Filters| 1. Add ```sub_region_1``` <br> 2. In the **Status** dropdown, select only ```(Blanks)```|  
 <img src="assets/img/pivot-table-editor.png" alt="Google Sheets pivot table editor" width="300" style="border: 1px solid darkgrey">  
-
-5. Rename the new sheet containing the pivot table. Give it a distinguishing name (e.g. ***Canada mobility***)
-6. Highlight cells B1 to G1, and use the *wrap text* button to wrap text to make it more readable.
-7. Rename each variable name (in row 1 of the sheet) to make it more readable. e.g.: 
+1. Rename the new sheet containing the pivot table. Give it a distinguishing name (e.g. ***Canada mobility***)
+1. Highlight cells B1 to G1, and use the *wrap text* button to wrap text to make it more readable.
+1. Rename each variable name (in row 1 of the sheet) to make it more readable. e.g.: 
   - In cell B1, rename ```SUM of retail_and_recreation_percent_change_from_baseline``` to ```retail and recreation```
   - rename ```SUM of grocery_and_pharmacy_percent_change_from_baseline``` to ```grocery and pharmacy```
   - etc.
