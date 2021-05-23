@@ -102,6 +102,9 @@ Inspect the trends for the three plotted variables. Are the trends synchronized 
 - Click ```Publish```, and OK at the prompt
 - Copy all embed code text that shows up in the dialog box and paste it into a empty text document for later.
 
+### Inspect the trends
+In a couple of sentences, summarize the trends in Ontario's COVID testing and vaccination rollout.
+
 ## 5. Calculate and plot vaccination rates for all regions
 
 > Q3: How do vaccination rates over time compare between all provinces and territories? 
@@ -112,11 +115,14 @@ For this one, you need to reproduce the ```vaccinations per 100 people``` calcul
 1. Style the figure to make it clear and relevant to the question being asked.
 1. Publish the figure. 
 
+### Inspect the trends
+In a couple of sentences, summarize the trends shown in the chart. Are there discrepancies between Provinces/Territories? If so, what might be the explanation for these? 
+
 ## 6. Compare current state of vaccinations across regions
 
 > Q4: What is the current state of vaccinations between provinces and territories right now?  
 
-In this analysis, you are going to create a table of ```vaccinations per 100 people``` values as they currently stand for each Province and Territory. Essentially, this will be a table version of the last points in the previously-created figure. 
+In this analysis, you are going to create a **table** of ```vaccinations per 100 people``` values as they currently stand for each Province and Territory. Essentially, this will be a table version of the last points in the previously-created figure. 
 
 A table has been started for you in the ```Provincial Summary``` sheet. Your task is to: 
 1. Complete the calculations that have been started for you. You can also perform the same calculation for tests (this is optional, though you may want to use it for later analyses).

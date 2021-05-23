@@ -5,9 +5,26 @@ nav_order: 5
 has_children: true
 ---
 
-<!-- Edit the content below for the workshop in question. Once you're ready to publish, remove the comment characters e.g. "<!--" at the start and end -->
+# Exercise 2: Project websites with GitHub and Markdown
+In this exercise, you'll learn the basics of [GitHub](https://github.com/) and [Markdown](https://guides.github.com/features/mastering-markdown/) as you create a project website to host all of your work from this module.  
 
-<iframe width="1031" height="637" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT0QsBupeGwVggn9tHtI9MtlK9L9dQBbc9Hk7cjbSXR0u3CYAM2YpS6RTyCGhx33mK1cASl0hrnjyFT/pubchart?oid=1991365340&amp;format=interactive"></iframe>
+## What you will need
+- A [GitHub](https://github.com/) account.
+
+## Exercise objectives 
+By the end of this tutorial, you will be able to: 
+- Create a [GitHub](https://github.com/) repository (from scratch and by cloning/forking an existing one)
+- Create, edit, and manage versions of files in a GitHub repository
+- Describe the basics of versioning and versioning software; communicate their value
+- Explain the differences between git and GitHub, and describe how they work together
+- Use [Markdown](https://www.markdownguide.org/getting-started/) to format text in a simple yet effective manner
+- Use [GitHub Pages](https://pages.github.com/) to create simple static web pages using jekyll
+- Identify where you can find more information to experiment and learn on your own
+- (Optional) Use [GitHub Desktop](https://desktop.github.com/) and git to sync files between your desktop/laptop and GitHub
+
+**Ready to begin?** Head to the [First lesson](github1). 
+
+
 
 # Lesson 1: Learn GitHub
 In this first lesson, you'll get some introductory experience creating a GitHub repository and populating it with files from the web interface. 

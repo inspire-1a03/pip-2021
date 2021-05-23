@@ -21,7 +21,16 @@ For a lot of data analysis and visualization work, spreadsheets are an excellent
 - Define a number of answerable questions
 - Perform analyses and generate figures to address questions
 
-**Ready to begin?** Head to the [First lesson](google-sheets1). 
+## Deliverables from this exercise
+In this exercise, you will create the following deliverables:
+- From Lesson 1, **3 figures** with summaries and **1 table**.
+- From Lesson 2, **1 figure** with a summary. 
+- Your responses to the questions provided on the [Reflection](google-sheets3) page.
+
+**IMPORTANT:** you will insert all of these deliverables into the project website you'll create during [Exercise 2](exercise2). 
+<br>
+<br>
+**Ready to begin this exercise?** Head to the [First lesson](google-sheets1). 
 
 <!--
 
