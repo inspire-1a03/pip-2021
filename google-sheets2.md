@@ -5,7 +5,7 @@ nav_order: 2
 parent: Exercise 1 - Google Sheets
 ---
 
-# Exploring mobility trends
+# Lesson 2: Exploring mobility trends
 In this lesson, we'll be working with [Google Community Mobility Report data](https://www.google.com/covid19/mobility/). These datasets are compiled by Google from location-based apps (like Google Maps), and the purpose is: 
 > ... to provide insights into what has changed in response to policies aimed at combating COVID-19. The reports chart movement trends over time by geography, across different categories of places such as retail and recreation, groceries and pharmacies, parks, transit stations, workplaces, and residential.
 

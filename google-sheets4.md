@@ -43,6 +43,7 @@ The line chart is fairly informative now, but it's not quite ready to publish. F
 - Some axes labels are missing
 - The title needs to be adjusted
 - If you've plotted the *Canada* Series, it will have no name in the legend. Double-click on the Canada line in the legend to show the ```Text formatting``` tab. For ```Text label``` enter ```Canada```
+
 <img src="assets/img/text-formatting.png" alt="Google Sheets pivot table editor" width="300" style="border: 1px solid darkgrey">  
 
 
@@ -70,7 +71,6 @@ The time series are spiky and noisy (why do you think the data is noisy?), and i
 
 ### Create a pivot table
 1. From the ```All Data``` tab, select all data (```Ctrl + A```) and click ``` > Data > Pivot Table``` to create a new pivot table. Insert it into a new sheet.  
-<img src="assets/img/create-pivot-table.PNG" alt="Create pivot table window in Google Sheets" width="300" style="border: 1px solid darkgrey">  
 
 2. In the **Pivot Table Editor**, set the following values:  
 

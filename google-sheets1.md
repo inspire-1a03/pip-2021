@@ -5,7 +5,7 @@ nav_order: 1
 parent: Exercise 1 - Google Sheets
 ---
 
-# Exploring case and vaccination trends
+# Lesson 1: Exploring case and vaccination trends
 In this exercise, we're using data from [COVID-19 Tracker Canada](https://covid19tracker.ca/index.html). The data presented on this website is compiled from a variety of Provincial/Territorial sources by [team of citizen volunteers](https://covid19tracker.ca/about.html). 
 
 In following the steps below, you'll create a number of charts and tables in a Google Sheet. For now, these will remain in your Google Sheet. In Exercise 2, however, you will learn how to move these products into an interactive web page that you will build yourself! Follow along with the steps below
