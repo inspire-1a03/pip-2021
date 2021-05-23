@@ -36,7 +36,7 @@ We can use this data to explore Canadians' changing activities during various st
 1. Click ```Import data```
 1. Rename the sheet/tab to ```All Data```
 
-## 1. Explore the data
+## 2. Explore the data
 - Take a few minutes to explore the data in the Google Sheet. Refer to the [documentation](https://support.google.com/covid19-mobility/answer/9824897?hl=en&ref_topic=9822927) to better understand how this data has been collected, derived, and presented, and to begin considering any limitations or weaknesses this data set may have. 
 - Freeze the top row so you can scroll through the data easier. 
 - What is being represented in columns J thru O? 
@@ -58,7 +58,7 @@ We can use this data to explore Canadians' changing activities during various st
 - The Mobility data is what is known as [**long data**](https://www.theanalysisfactor.com/wide-and-long-data/), while the Cases and Vaccinations data is structured as **wide data**. Wide data is easier to work with in spreadsheets. 
 - In its current state, we can't just plot the Mobility data as a time series like we did the Cases and Vaccinations data. Instead, we need to use ***Pivot Tables*** to convert the long data into wide data. We'll do this in your first task. 
 
-## 2. Canadian mobility trends
+## 3. Canadian mobility trends
 
 > Q1. How has mobility changed in Canada over the pandemic 
 
@@ -69,29 +69,34 @@ We'll use the ***Pivot Table*** function in Google Sheets to pull out only Canad
 1. From the ```All Data``` sheet, press ```Ctrl + A``` to select all non-empty cells. 
 1. Click on ```Data > Pivot Table```. Choose to insert it into a new sheet.  
 <img src="assets/img/pivot-table.png" alt="Create pivot table window in Google Sheets" width="300" style="border: 1px solid darkgrey">  
-1. In the **Pivot table editor** that appears in the new sheet, make the following selections:  
+
+3. In the **Pivot table editor** that appears in the new sheet, make the following selections:  
+
 |Element|Value|
 |:---|:---|
 |Rows|1. Add ```date``` <br> 2. Uncheck ```Show totals```|
 |Columns| *leave empty* |
 |Values| Add each of the following in succession (keep all summarized by SUM): <br> 1. ```retail_and_recreation_percent_change_from_baseline``` <br> 2. ```grocery_and_pharmacy_percent_change_from_baseline``` <br> 3. ```parks_percent_change_from_baseline``` <br> 4. ```transit_stations_percent_change_from_baseline``` <br> 5. ```workplaces_percent_change_from_baseline``` <br> 6. ```residential_percent_change_from_baseline```|
 |Filters| 1. Add ```sub_region_1``` <br> 2. In the **Status** dropdown, select only ```(Blanks)```|  
-<img src="assets/img/pivot-table-editor.png" alt="Google Sheets pivot table editor" width="300" style="border: 1px solid darkgrey">  
-1. Rename the new sheet containing the pivot table. Give it a distinguishing name (e.g. ***Canada mobility***)
-1. Highlight cells B1 to G1, and use the *wrap text* button to wrap text to make it more readable.
-1. Rename each variable name (in row 1 of the sheet) to make it more readable. e.g.: 
-  - In cell B1, rename ```SUM of retail_and_recreation_percent_change_from_baseline``` to ```retail and recreation```
-  - rename ```SUM of grocery_and_pharmacy_percent_change_from_baseline``` to ```grocery and pharmacy```
-  - etc.
 
-## Create the timeline chart
-- From the top bar, click on ```Insert > Chart``` 
-- In the ***Chart Editor***, select the ```Chart type``` to be *Timeline*
-- For ```Data range``` highlight the full extent of the data (including the first header row with variable names, e.g. A1:G453 in this example).
+<img src="assets/img/pivot-table-editor.png" alt="Google Sheets pivot table editor" width="300" style="border: 1px solid darkgrey">  
+
+4. Rename the new sheet containing the pivot table. Give it a distinguishing name (e.g. ***Canada mobility***)
+5. Highlight cells B1 to G1, and use the *wrap text* button to wrap text to make it more readable.
+6. Rename each variable name (in row 1 of the sheet) to make it more readable. e.g.: 
+  - In cell B1, rename ```SUM of retail_and_recreation_percent_change_from_baseline``` to ```retail and recreation```
+  - In cell C1, rename ```SUM of grocery_and_pharmacy_percent_change_from_baseline``` to ```grocery and pharmacy```
+  - etc.
+7. Congratulations. You have created a wide dataset that can now be easily turned into a chart.
+
+### Create a timeline chart
+1. From the top bar, click on ```Insert > Chart``` 
+1. In the ***Chart Editor***, select the ```Chart type``` to be *Timeline*
+1. For ```Data range``` highlight the full extent of the data (including the first header row with variable names, e.g. A1:G461 in this example).
 - Check ```Use row 1 as headers```
 - Make sure ```Use column A as labels``` is checked.
 
-## Customize the chart
+### Customize the chart
 *Note: There is not much customization that you can do on a Timeline chart*
 - Ensure that the ***Chart Editor*** is still open. If it isn't, double-click the chart to open it.
 - In the ```Customize``` tab of the ***Chart Editor***, experiment with changing the ```Fill opacity```, ```Line thickness```, and ```Date format```. 
@@ -104,13 +109,22 @@ We'll use the ***Pivot Table*** function in Google Sheets to pull out only Canad
 ```
 <iframe width="1000" height="464" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT0QsBupeGwVggn9tHtI9MtlK9L9dQBbc9Hk7cjbSXR0u3CYAM2YpS6RTyCGhx33mK1cASl0hrnjyFT/pubchart?oid=1084506432&amp;format=interactive"></iframe>
 ```
+<!--
 When the copied html embed code is inserted into a webpage (that's coming soon), you'll end up with an interactive chart that looks something like this:  
 
 <iframe width="800" height="464" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT0QsBupeGwVggn9tHtI9MtlK9L9dQBbc9Hk7cjbSXR0u3CYAM2YpS6RTyCGhx33mK1cASl0hrnjyFT/pubchart?oid=1084506432&amp;format=interactive"></iframe>
+-->
 
-# Exercise 2 - Provincial comparison
+## 4. Next Steps 
 
-## Create a pivot table 
+
+
+## 1. Provincial comparison
+
+> Q: 
+
+
+### Create a pivot table 
 
 From the ```All Data``` tab, create a new pivot table (```>Data>Pivot Table```). Insert it into a new sheet.  
 <img src="assets/img/pivot-table.png" alt="Create pivot table window in Google Sheets" width="300" style="border: 1px solid darkgrey">  
@@ -148,8 +162,6 @@ The line chart is fairly informative now, but it's not quite ready to publish
 - Note that the Canada Series has no name in the legend. Double-click on the Canada line in the legend to show the ```Text formatting``` tab. For ```Text label``` enter ```Canada```
 
 <img src="assets/img/text-formatting.png" alt="Google Sheets pivot table editor" width="300" style="border: 1px solid darkgrey">  
-
-
 
 - In the ***Chart Editor***, select the ```Chart type``` to be *Timeline*
 - For ```Data range``` highlight the full extent of the data (including the first header row with variable names, e.g. A1:G453 in this example).
