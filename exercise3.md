@@ -8,6 +8,9 @@ has_children: true
 # Exercise 3: Advanced visualization using Tableau
 In this exercise, we will use [Tableau Public](https://public.tableau.com/en-us/s/) to perform additional data analysis and visualizations using the COVID-19 datasets that we used in Exercise 1 (Case and Vaccination; Mobility). 
 
+## What is Tableau?
+[Tableau](https://www.tableau.com/) itself is a software and analytics company that offers a variety of products. Tableau began with what we now call Tableau Desktop 
+
 ## What you will need
 - Sign up for and install [Tableau Public](https://public.tableau.com/en-us/s/)
 

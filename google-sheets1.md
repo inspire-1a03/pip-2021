@@ -126,7 +126,9 @@ In this analysis, you are going to create a **table** of ```vaccinations per 100
 
 A table has been started for you in the ```Provincial Summary``` sheet. Your task is to: 
 1. Complete the calculations that have been started for you. You can also perform the same calculation for tests (this is optional, though you may want to use it for later analyses).
-1. When completed, save the ```Provincial Summary``` sheet to a comma-separated values (csv) file. Save it to a directory for this module. You will use this file in the [Tableau Exercise](exercise3) to make a neat [choropleth map](https://www.arcgis.com/apps/MapJournal/index.html?appid=75eff041036d40cf8e70df99641004ca)!
+1. When completed, save the ```Provincial Summary``` sheet to a comma-separated values (csv) file. 
+  - Save it to a working directory that you are using for this module with the name: ```provincial-vaccinations.csv```
+You will use this file in the [Tableau Exercise](exercise3) to make a neat [choropleth map](https://www.arcgis.com/apps/MapJournal/index.html?appid=75eff041036d40cf8e70df99641004ca)!
   - To save the file as a csv, click ```File > Download > Comma-separated values (.csv, current sheet)```
 <img src="assets/img/save-csv.png" alt="Save file as csv" width="400" style="border: 1px solid darkgrey">  
 
