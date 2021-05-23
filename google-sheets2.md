@@ -13,12 +13,13 @@ We can use this data to explore Canadians' changing activities during various st
 
 **Note** that we're only going to do a bit of analysis on this dataset--the rest will be carried out in Tableau during [Exercise 3](exercise3).
 
-## Get the data - the easy way (recommended)
+## 1a. Get the data
 
+### The easy way (recommended)
 **Note** that this data has already been downloaded and prepared for you in a Google Sheet. Click [here](https://docs.google.com/spreadsheets/d/1B6Ear2sZ890amEHA-JVVtbZnfxzDkorj0gP7B_7lSdY/copy) to make a working copy of this data. 
 
-## Get the data -- the hard way (completely optional)
-**Completely Optional**: If you would like to try to create this data on your own, follow the steps below: 
+## 1b. The hard way (totally optional)
+**Completely Optional**: If you would like to try to the Google Sheet on your own using the Community Mobility Report data, follow the steps below: 
 1. Download the ```Region CSVs``` file from the [Google Community Mobility Report data](https://www.google.com/covid19/mobility/) site. Unzip it. 
 1. Use a text editor (I recommend [Notepad++](https://notepad-plus-plus.org/downloads/v7.9.2/) to open the 2020 and 2021 Canadian files (```2020_CA_Region_Mobility_Report``` and ```2021_CA_Region_Mobility_Report```).
 1. Copy the data values (i.e. everything but the top row) of the 2021 sheet to the bottom of the 2020 sheet. 
@@ -31,66 +32,44 @@ We can use this data to explore Canadians' changing activities during various st
 1. In the Import File box, select the following: 
   - ```Import location``` : ```Replace spreadsheet```
   - ```Separator type``` : ```Detect automatically```
-  
 <img src="assets/img/import-file.png" alt="Google sheets import dialog box" width="300" style="border: 1px solid darkgrey">  
-  
 1. Click ```Import data```
+1. Rename the sheet/tab to ```All Data```
 
+## 1. Explore the data
+- Take a few minutes to explore the data in the Google Sheet. Refer to the [documentation](https://support.google.com/covid19-mobility/answer/9824897?hl=en&ref_topic=9822927) to better understand how this data has been collected, derived, and presented, and to begin considering any limitations or weaknesses this data set may have. 
+- Freeze the top row so you can scroll through the data easier. 
+- What is being represented in columns J thru O? 
+  - Each shows a percent change in occupancy (from the pre-COVID baseline) for six different categories of places (retail and recreation, grocery and pharmacy, parks, etc.).
+  - How might the information in this spreadsheet be informative or useful? 
 
-<!--
-Download region CSVs
-- https://www.google.com/covid19/mobility/
-- Extract 2020 and 2021 data for Canada (CA)
-- Open a new Google Sheet
-  - Import 2020 data into one tab
-  - Import 2021 data into another (Append to current sheet)
-- Will have to explain the workaround to make the UTF-8 characters work in Google Sheets
-- Include a link to make a copy of the ready-to-use data. 
--->
+### Filtering data   
+- How does the structure of the data in this Google Sheet compare to the Cases and Vaccinations Google Sheet you worked with in Exercise 1? 
+- To explore the data more, click on the filter button ![Google sheets filter button symbol](assets/img/filter-icon.png) to turn on filters for each column. It may need a second to work, but you have been successful when column filters appear as green inverted triangle icons in the top row of each column. e.g., ![Google sheets column filter symbol](assets/img/column-filter.png). 
+  - For the columns ```sub_region_1``` and ```sub_region_2```, click the column filter and explore the unique values presented in the filter box.
+    - What information are each of these columns presenting? 
+  - Do the same for the ```date``` column. This time, click ```Clear``` to uncheck all values in the filter box list. Recheck a single date (e.g. ```2020-02-15```). Click OK. 
+    - The Google Sheet now displays only rows with the checked value(s) in the ```date``` column. 
+    - Is there a single row for each date (like in the Cases and Vaccinations lesson), or are there multiple ones? If there are multiple, what differs between the rows? 
+  - Click the filter symbol ![Google sheets column filter symbol](assets/img/column-filter.png) again to turn off filters and bring back all rows.
 
-## Explore the data
-- freeze row
-- scan rows/columns
-  - explain columns 
-  - point to documentation
-Combine the data
-- check that variable names are the same in both sheets. 
-- Make new tab called "All data"
-- Copy everything from 2020 sheet (Ctrl + A > Ctrl + C > go to new sheet > Ctrl + V)
+### Long vs wide data
+- In the Mobility data the independent variable (time) repeats for different combinations of other variables (e.g. ```sub_region1```, ```sub_region_2```). This differs from the Cases and Vaccinations data, where each date appears once and the values of all other variables at that time are captured in additional columns. 
+- The Mobility data is what is known as [**long data**](https://www.theanalysisfactor.com/wide-and-long-data/), while the Cases and Vaccinations data is structured as **wide data**. Wide data is easier to work with in spreadsheets. 
+- In its current state, we can't just plot the Mobility data as a time series like we did the Cases and Vaccinations data. Instead, we need to use ***Pivot Tables*** to convert the long data into wide data. We'll do this in your first task. 
 
-<!--
-- Select all (Ctrl + A)
-- Check ```Data has header row```
-- Sort by ```place_id``` from A->Z
-- Click ```Add another sort column``` and sort by ```date```  from A->Z
--->
+## 2. Canadian mobility trends
 
-Data range: A2:0454
-Select ```Use row 2 as headers```
-Select ```Use column A as labels```
-- Remove series to keep only a few (e.g. Ontario, Alberta, Nova Scotia)
+> Q1. How has mobility changed in Canada over the pandemic 
 
-# Exercise 1 - Canadian mobility chart: 
-**Objective**: Create an interactive Timeseries chart that shows changes in mobility for all of Canada (across the 6 different mobility categories)
+In this analysis, you'll create an interactive Timeline chart that shows changes in cross-Canada mobility for all 6 place types. 
 
-## Create a Pivot Table
-- From the ```All Data``` tab, create a new pivot table (```>Data>Pivot Table```). Insert it into a new sheet.  
-<img src="assets/img/pivot-table.PNG" alt="Create pivot table window in Google Sheets" width="300" style="border: 1px solid darkgrey">  
-
-<!--
-- For **Rows**, select the ```date``` column. Uncheck *Show totals*.
-- Leave **Columns** empty (don't add anything).
-- For **Values**, add each of the following in succession (keep all summarized by SUM):
-  - ```retail_and_recreation_percent_change_from_baseline```.
-  - ```grocery_and_pharmacy_percent_change_from_baseline```
-  - ```parks_percent_change_from_baseline```	
-  - ```transit_stations_percent_change_from_baseline```	
-  - ```workplaces_percent_change_from_baseline```
-  - ```residential_percent_change_from_baseline```
-- For **Filters**, add the ```sub_region_1``` column. In the **Status** dropdown, make sure only ```(Blanks)``` is checked.  
--->
-
-In the **Pivot table editor**, make the following selections:
+### Create a Pivot Table
+We'll use the ***Pivot Table*** function in Google Sheets to pull out only Canada-wide data from the ```All Data``` sheet (i.e. rows where there is no value for ```sub_region1``` and ```sub_region_2```).
+1. From the ```All Data``` sheet, press ```Ctrl + A``` to select all non-empty cells. 
+1. Click on ```Data > Pivot Table```. Choose to insert it into a new sheet.  
+<img src="assets/img/pivot-table.png" alt="Create pivot table window in Google Sheets" width="300" style="border: 1px solid darkgrey">  
+1. In the **Pivot table editor** that appears in the new sheet, make the following selections:
  
 |Element|Value|
 |:---|:---|
@@ -101,9 +80,9 @@ In the **Pivot table editor**, make the following selections:
 
 <img src="assets/img/pivot-table-editor.png" alt="Google Sheets pivot table editor" width="300" style="border: 1px solid darkgrey">  
 
-- Rename the new sheet containing the pivot table. Give it a distinguishing name (e.g. ***Canada mobility***)
-- Highlight cells B1 to G1, and use the *wrap text* button to wrap text to make it more readable.
-- Rename each variable name (in row 1 of the sheet) to make it more readable. e.g.: 
+5. Rename the new sheet containing the pivot table. Give it a distinguishing name (e.g. ***Canada mobility***)
+6. Highlight cells B1 to G1, and use the *wrap text* button to wrap text to make it more readable.
+7. Rename each variable name (in row 1 of the sheet) to make it more readable. e.g.: 
   - In cell B1, rename ```SUM of retail_and_recreation_percent_change_from_baseline``` to ```retail and recreation```
   - rename ```SUM of grocery_and_pharmacy_percent_change_from_baseline``` to ```grocery and pharmacy```
   - etc.
