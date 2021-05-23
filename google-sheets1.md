@@ -56,10 +56,9 @@ Let's begin by making some straightforward plots of some of the variables in the
   - Add and/or modify all axis titles 
   - Modify text labels 
   - Modify font sizes
-  - Edit colours and markers for 
-- Modify Title
-- Modify chart to a combo chart
-  - Make the deaths a bar chart
+  - Edit colours and markers for time series.
+  - Add/modify the chart title
+  - Add/modify vertical and horizontal grid lines
 
 ### Inspect the trends
 Inspect the trends for the three variables. Are the trends synchronized with each other? Does each variable increase the same relative amount during each of the three waves? What are some possible explanations for differences you see in the graph? What new questions do you have that could be investigated?
