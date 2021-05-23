@@ -54,8 +54,8 @@ All deliverables will be web pages within a larger module website that you will 
 
 |Deliverable|Weight|Criteria|Due Date|
 |:---|---:|:---|---:|
-|Exercise 1: Spreadsheets|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
-|Exercise 3: Tableau|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
+|Exercise 1: Google Sheets|40|- Figure quality (/20) <br> - Analysis quality (/20) |31-May|
+|Exercise 3: Tableau|20|- Figure quality (/10) <br> - Analysis quality (/10) |31-May|
 |Final Exercise|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
 |Final module website|10|- Elements display correct (images, pages, text) (/5) <br> - Formatting (/5) |31-May|
 
