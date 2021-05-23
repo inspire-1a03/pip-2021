@@ -31,8 +31,12 @@ In this module, students will have an opportunity to explore these questions by 
 
 
 ## Module Structure and Schedule 
-With the exception of the introductory class, the rest of the exercises for this module will be carried out asynchronously. You'll be provided with instructions (both in text and video) to complete the exercises, and it will be up to you to complete the exercises during the day.  
-On Tuesday, Wednesday, and Thursday, Jay will be available for drop-in help from 19:00 - 21:00 (7:00 - 9:00 PM) in the module Teams channel. **The drop-in sessions are completely optional.**
+With the exception of the introductory class, the rest of the exercises for this module will be carried out asynchronously. 
+- You'll be provided with instructions (in most cases in both text and video), and it will be up to you to complete the exercises during the day.  
+<br>
+On Tuesday, Wednesday, and Thursday, Jay will be available for drop-in help from 19:00 - 21:00 (7:00 - 9:00 PM) in the module [Teams channel](https://teams.microsoft.com/l/channel/19%3a034faa976bc54fbca2842878fc0bf1a8%40thread.tacv2/Patterns%2520in%2520the%2520Pandemic%2520-%25202021?groupId=dc711b43-0e22-4ae9-b06f-abcf87865fc0&tenantId=44376307-b429-42ad-8c25-28cd496f4772). 
+- The drop-in sessions are opportunities to get help where you are stuck with an exercise--they are not intended to be a step-by-step instruction session, as these are already created for you. 
+- **The drop-in sessions are completely optional, but you are encouraged to attend if you are stuck.**
 
 |Date|Time|Activities|in-class or individually| 
 |---:|---:|:---|:---|
@@ -54,9 +58,6 @@ All deliverables will be web pages within a larger module website that you will 
 |Exercise 3: Tableau|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
 |Final Exercise|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
 |Final module website|10|- Elements display correct (images, pages, text) (/5) <br> - Formatting (/5) |31-May|
-
-
-
 
 <!--
 ## 1. Workshop Introduction
