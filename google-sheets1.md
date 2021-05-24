@@ -48,8 +48,8 @@ Let's begin by making some straightforward plots of some of the variables in the
 1. The trends in ```data >> change_fatalities``` do not show very well, because the absolute values of this variable are much smaller than the others. Fix this by plotting deaths on its own axis (i.e. the right axis)
   - In the ```Customize``` pane, go to ```Series``` and select ``` data >> change_fatalities``` in the dropdown.
   - For ```Axis```, select ```Right axis```
-1. To help the viewer understand that the right axis corresponds to fatalities, change the colour of the axis labels to red and provide an axis label. 
-  - Click on the right axes in the figure to bring up the ```Customize > Right vertical axis``` options. Change the ```Text colour``` to red.
+1. To help the viewer understand that the right axis corresponds to fatalities, change the colour of the axis labels to match the fatalities line and provide an axis label. 
+  - Click on the right axes in the figure to bring up the ```Customize > Right vertical axis``` options. Change the ```Text colour``` to the same as the fatalities line.
   - Go to ```Customize > Chart and axis title > Right vertical axis title``` and provide the title text ```Fatalities```
 1. (optional) If you would like to experiment with presenting one/some of the variables differently, in ```Setup > Chart type``` select ```Combo chart```.
   - This will change one series to a bar graph by default. You can change which series is presented as a bar in ```Customize > Series``` by selecting one of the series and changing the ```Type``` between ```Columns``` and ```Area```.
