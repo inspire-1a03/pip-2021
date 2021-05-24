@@ -2,16 +2,16 @@
 layout: default
 title: GitHub Pages
 nav_order: 3
-parent: Exercise 2 - GitHub
+parent: Exercise 2 - GitHub & GitHub Pages
 ---
 
 <!-- Edit the content below for the workshop in question. Once you're ready to publish, remove the comment characters e.g. "<!--" at the start and end -->
 # Lesson 3: Create web pages with GitHub Pages
-In this lesson, you'll learn how to use GitHub Pages to turn the markdown files in your GitHub repository into a functioning webpage.
+In this lesson, you'll learn how to use GitHub Pages to turn the markdown files in your GitHub repository into a functioning web page.
 
 ## Lesson objectives 
 - Explore GitHub repository functionality
-- Create a webpage from markdown files using GitHub Pages & jekyll
+- Create a web page from markdown files using GitHub Pages & jekyll
 - Customize your web pages; create a website
 - Embed multimedia content
 

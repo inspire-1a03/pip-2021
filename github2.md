@@ -2,7 +2,7 @@
 layout: default
 title: Learn Markdown
 nav_order: 2
-parent: Exercise 2 - GitHub
+parent: Exercise 2 - GitHub & GitHub Pages
 ---
 
 <!-- Edit the content below for the workshop in question. Once you're ready to publish, remove the comment characters e.g. "<!--" at the start and end -->

@@ -3,7 +3,7 @@ subtitle: 'An INSPIRE 1A03 Module'
 
 remote_theme: scds/just-the-docs
 github_repo_url: "https://inspire-1a03.github.io/pip-2021/" # ***Enter workshop URL (in github pages) here
-color_scheme: mcmaster
+color_scheme: mcmaster                                        # ***Uncomment this if you would like to use dark mode
 # logo: "https://github.com/scds/intro-voyant/blob/main/assets/img/dmds-tableau.png?raw=true"
 
 # Heading anchor links appear on hover over h1-h6 tags in page content

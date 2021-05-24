@@ -13,7 +13,7 @@ In this exercise, you'll use the COVID-19 data from Exercise 1 (Cases and Vaccin
 In this example, you will revisit Question 4 from [first lesson](google-sheets1) of your Google Sheets Exercise by uploading the ```provincial-vaccinations.csv``` table that you created into Tableau and creating a [choropleth map](https://www.arcgis.com/apps/MapJournal/index.html?appid=75eff041036d40cf8e70df99641004ca) that shades each province or territory with a different colour depending on the number of vaccinations given per 100 people.
 
 From the previous exercise: 
-> Q: What is the current state of vaccinations among provinces and territories?  
+> Q1: What is the current state of vaccinations among provinces and territories?  
 
 ### Connect to your data
 1. From the start page, click to connect ```To a File > Text file```

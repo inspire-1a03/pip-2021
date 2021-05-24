@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Exercise 2 - GitHub
+title: Exercise 2 - GitHub & GitHub Pages
 nav_order: 5
 has_children: true
 ---

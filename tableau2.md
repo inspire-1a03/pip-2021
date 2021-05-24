@@ -19,10 +19,10 @@ For use in Tableau, you can download the original ```All Data``` table, which is
 1. Inspect the data preview to ensure that the file is being interpreted properly, and the fields are interpreted as expected (e.g., regions as text, dates as dates, mobility changes from baseline as numeric, etc.)
 1. When ready to explore, go to **Sheet 1**. 
 
-## 3. Compare regional mobility between regions
+## 3. Changes in travel to retail and recreation destinations for provinces/territories
 For this first part, let's tackle a question that was originally addressed using Google Sheets in the [Extra Stuff](google-sheets4) section of Exercise 1. 
 
-> Q: How has travel to recreation and retail locations changed over time between regions of Canada?  
+> Q2: How has travel to recreation and retail locations changed over time between regions of Canada?  
 
 ### Structure the data in your sheet and visualize
 1. Starting with a blank sheet, drag the ```Date``` dimension from the **Tables** pane to the **Columns** area at the top of the sheet. 
@@ -67,10 +67,10 @@ You will have probably noticed that data is very noisy, which makes it difficult
 ### Create, publish, embed your dashboard.
 - Follow the guidance from [lesson 1](tableau1) to turn your chart into a published dashboard and embed it into your project website. 
 
-## 4. Compare mobility trends between Ontario counties/municipalities
+## 4. Changes in travel to parks for Ontario counties/municipalities
 We'll again tackle a question that was originally addressed using Google Sheets in the [Extra Stuff](google-sheets4) section of Exercise 1: 
 
-> Q: How has travel to parks changed over time in Ontario's counties/municipalities?  
+> Q3: How has travel to parks changed over time in Ontario's counties/municipalities?  
 
 For this example, you can use the instruction provided above to get you most of the way. Just make note of a couple of things: 
 - You'll be using ```Parks Percent Change From Baseline``` instead of ```Retail And Recreation Percent Change From Baseline``` for **Rows**

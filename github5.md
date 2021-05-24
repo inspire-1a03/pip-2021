@@ -2,7 +2,7 @@
 layout: default
 title: GitHub Desktop
 nav_order: 5
-parent: Exercise 2 - GitHub
+parent: Exercise 2 - GitHub & GitHub Pages
 ---
 
 # Lesson 4 - Sync with GitHub Desktop (and maybe git) 
