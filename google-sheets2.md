@@ -60,7 +60,7 @@ We can use this data to explore Canadians' changing activities during various st
 
 ## 3. Canadian mobility trends
 
-> Q1. How has mobility changed in Canada over the pandemic 
+> Q1. How has mobility changed in Canada over the pandemic?
 
 In this analysis, you'll create an interactive Timeline chart that shows changes in cross-Canada mobility for all 6 place types. 
 

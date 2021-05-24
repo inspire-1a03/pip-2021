@@ -65,21 +65,30 @@ There isn't as much to style in a choropleth map as compared to a line chart or 
 1. You can also select which [elements](https://www.gislounge.com/whats-in-a-map/) are included on your map by clicking ```Map > Map Options```:
   - Check ```Show Map Scale```, and change the ```units``` to ```metric```. 
 
-### Publishing your visualization
-
-
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/vax-rates/Dashboard1?:embed=yes&:display_count=yes&:showVizHome=no" width = '650' height = '450' scrolling='no'></iframe> 
-
-With thanks to [San Wang](https://san-wang.github.io/blog/Embed-Tableau-dashboard-into-github-page-post/) for the example. 
-
-
-1. Upload your ```provincial-vaccinations.csv```
-
-
+### Create a dashboard
+You can publish your figure (and allow it to be placed into your project website) by inserting it into a dashboard. A dashboard allows you to fine-tune the presentation of your visualization and add additional contextualizing elements to it.
+1. On the top toolbar, click ```Dashboard > New Dashboard```
+1. In the Dashboard builder window, drag the **Sheet** with your choropleth onto the dashboard canvas. 
+1. The map will appear with the associated colour bar. You can move these elements around to make better use of space.
+  - Drag the colour bar beneath the map, so that they are stacked on top of each other. This maximizes the space for the map.
+1. Edit the title of the map to something like *Vaccinations per 100 people, 21-May, 2021.*
+1. Use the ```Objects``` panel to add additional information to the map. 
+  - Add a text box to the bottom of the dashboard (note that you can resize it to take up minimal space). Add some text referring to the source of the data: *Data source: COVID-19 tracker Canada. covid19tracker.ca*. 
   
+### Publish the dashboard
+1. When you are ready to publish your dashboard, click on the **Save the Tableau Public** button ![Save to tableau button icon](assets/img/save-tableau.png). Give the dashboard a unique and descriptive name. You may be prompted to log into your Tableau account.
+1. When published, your dashboard should load in the browser (or you can find it in your Tableau Public profile). It will have a URL similar to ```https://public.tableau.com/profile/jason.brodeur#!/vizhome/jbrodeur-vax-rates/Dashboard1?publish=yes```. 
 
-
-## Download your Mobility data | Import to Tableau
-1. Download the ```All Data``` sheet of your COVID-19 Mobility Google Sheet to a local directory
-  - With the ```All Data``` sheet selected, 
-
+### Embed your visualization in your GitHub Pages project page
+As demonstrated in [Exercise 2](excercise2), you can insert html code into a markdown file to embed web content. With thanks to [San Wang](https://san-wang.github.io/blog/Embed-Tableau-dashboard-into-github-page-post/) for the guidance, you can do the same with your Tableau dashboard.
+1. Insert the following code into your Markdown file where you would like it to appear: 
+```
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/jbrodeur-vax-rates/Dashboard1?:embed=yes&:display_count=yes&:showVizHome=no" width = '650' height = '450' scrolling='no'></iframe> 
+```
+  - **Note** that the only unique part of the URL is ```jbrodeur-vax-rates/Dashboard1```, which is the name of the dashboard itself. 
+  - **Note2:** I suggest always leaving a blank line in your Markdown file above and below the html code. 
+2. Replace the ```jbrodeur-vax-rates/Dashboard1``` part of the URL with the values from your dashboard's URL. 
+3. Commit changes. Wait for the changes to propagate to your GitHub Pages website and inspect. 
+<br>
+<br>
+**Finished?** Head to [lesson 2](tableau2) to create some other kinds of charts using your Mobility data. 
