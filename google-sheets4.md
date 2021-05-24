@@ -8,7 +8,7 @@ parent: Exercise 1 - Google Sheets
 # Extra Stuff
 This page contains additional examples for creating pivot tables and charts from the Mobility data. 
 
-## 1. Provincial comparison
+## 1. Compare regional mobility between regions
 
 > Q: How have mobility trends differed over time between regions of Canada? 
 
@@ -67,7 +67,7 @@ The time series are spiky and noisy (why do you think the data is noisy?), and i
 
 
 ## 2. Mobility trends among Ontario counties/municipalities
-> Q: How have mobility trends differed over time between counties/municipalities of Ontario? 
+> Q: How has travel to parks changed over time in Ontario's counties/municipalities?  
 
 ### Create a pivot table
 1. From the ```All Data``` tab, select all data (```Ctrl + A```) and click ``` > Data > Pivot Table``` to create a new pivot table. Insert it into a new sheet.  
@@ -78,7 +78,7 @@ The time series are spiky and noisy (why do you think the data is noisy?), and i
 |:---|:---|
 |Rows|1. select ```date``` <br> 2. uncheck ```Show totals```|
 |Columns|1. select ```sub_region_2``` <br> 2. uncheck ```Show totals```|
-|Values| 1. select ```retail_and_recreation_percent_change_from_baseline```<br> 2. Summarise by AVERAGE|
+|Values| 1. select ```parks_percent_change_from_baseline```<br> 2. Summarise by AVERAGE|
 |Filters| 1. Select ```sub_region_1``` <br> 2. Select only ```Ontario``` in the *Status* dropdown|
 
 **Note** that selecting only rows where ```sub_region_1``` is ```Ontario``` means that it will return the Ontario average values and values for each county/municipality in Ontario. 

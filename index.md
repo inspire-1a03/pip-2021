@@ -12,19 +12,9 @@ nav_order: 1
 -->
 
 # Welcome to Patterns in the Pandemic. 
-Maybe you've heard of GitHub and would like to learn more about how it works. Maybe you've heard how it's possible to make easy and simple webpages using GitHub and GitHub Pages and want to try. Or maybe, you knew none of this but are intrigued nonetheless. In any of those cases, this tutorial is for you.  
+Whether they are being relayed to us through news outlets, government agencies, social media, or our friends and family, COVID has many narratives. But what stories do the data tell? What can we learn from trends and patterns in the multitudes of COVID data that is freely available? And perhaps more importantly, what (or who) is not included or represented properly in the data, or just generally misunderstood? 
 
-In this tutorial, you will learn how to use a suite of related tools ([GitHub](https://github.com/), [GitHub Pages](https://pages.github.com/), [Markdown](https://www.markdownguide.org/getting-started/), and [GitHub Desktop](https://desktop.github.com/)) to create and manage repositories of files, and build simple websites with ease! 
-
-## Learning Objectives
-By the end of this tutorial, you will be able to: 
-- Create a [GitHub](https://github.com/) repository (from scratch and by cloning/forking an existing one)
-- Create, edit, and manage versions of files in a GitHub repository
-- Describe the basics of versioning and versioning software; communicate their value
-- Explain the differences between git and GitHub, and describe how they work together
-- Use [GitHub Desktop](https://desktop.github.com/) and git to sync files between your desktop/laptop and GitHub
-- Use [Markdown](https://www.markdownguide.org/getting-started/) to format text in a simple yet effective manner
-- Use [GitHub Pages](https://pages.github.com/) to create simple static web pages using jekyll
-- Identify where you can find more information to experiment and learn on your own
-
-Proceed to the [Preparation](preparation) page to get started.
+In this module, students will have an opportunity to explore these questions by learning and apply the basics of data analysis and visualization in the service of synthesizing publicly available datasets from sources like Google, the Government of Ontario, and Statistics Canada. Using a variety of free software tools (including Google Sheets, Tableau, and GitHub), students will create a range of interactive charts, maps, and tables that illustrate Ontario’s COVID trends and patterns on a self-built website. 
+<br>
+<br>
+**Want to learn more about this module?** Head to the [introduction](introduction) page.  

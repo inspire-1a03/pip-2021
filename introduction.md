@@ -4,24 +4,7 @@ title: Module Introduction
 nav_order: 2
 ---
 
-<!-- Edit the content below for the workshop in question. Once you're ready to publish, remove the comment characters e.g. "<!--" at the start and end 
-
--->
-
-<!--
-<div class='tableauPlaceholder' id='viz1621708555453' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;va&#47;vax-rates&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='vax-rates&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;va&#47;vax-rates&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object></div>
-
-<script type='text/javascript'>                    var divElement = document.getElementById('viz1621708555453');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
--->
-
-
-
 # Module Introduction
-Welcome to **Patterns in the Pandemic**. 
-
-Whether they are being relayed to us through news outlets, government agencies, social media, or our friends and family, COVID has many narratives. But what stories do the data tell? What can we learn from trends and patterns in the multitudes of COVID data that is freely available? And perhaps more importantly, what (or who) is not included or represented properly in the data, or just generally misunderstood? 
-
-In this module, students will have an opportunity to explore these questions by learning and apply the basics of data analysis and visualization in the service of synthesizing publicly available datasets from sources like Google, the Government of Ontario, and Statistics Canada. Using a variety of free software tools (including Google Sheets, Tableau, and GitHub), students will create a range of interactive charts, maps, and tables that illustrate Ontario’s COVID trends and patterns on a self-built website. 
 
 ## Module Objectives
 1.	Promote awareness of a variety of publicly available datasets and data sources; improve understanding of their uses and limitations.
@@ -29,9 +12,8 @@ In this module, students will have an opportunity to explore these questions by 
 3.	Build experience and expertise producing high-quality figures and visualizations to convey clear and concise information about complex topics. 
 4.	Using GitHub and GitHub Pages, explore ways in which data, code, and research findings can be shared with other researchers and members of the public alike. 
 
-
 ## Module Structure and Schedule 
-With the exception of the introductory class, the rest of the exercises for this module will be carried out asynchronously. 
+With the exception of the introductory class on the morning of 25-May, the rest of the exercises for this module will be carried out asynchronously. 
 - You'll be provided with instructions (in most cases in both text and video), and it will be up to you to complete the exercises during the day.  
 <br>
 On Tuesday, Wednesday, and Thursday, Jay will be available for drop-in help from 19:00 - 21:00 (7:00 - 9:00 PM) in the module [Teams channel](https://teams.microsoft.com/l/channel/19%3a034faa976bc54fbca2842878fc0bf1a8%40thread.tacv2/Patterns%2520in%2520the%2520Pandemic%2520-%25202021?groupId=dc711b43-0e22-4ae9-b06f-abcf87865fc0&tenantId=44376307-b429-42ad-8c25-28cd496f4772). 
@@ -59,22 +41,6 @@ All deliverables will be web pages within a larger module website that you will 
 |Final Exercise|30|- Figure quality (/15) <br> - Analysis quality (/15) |31-May|
 |Final module website|10|- Elements display correct (images, pages, text) (/5) <br> - Formatting (/5) |31-May|
 
-<!--
-## 1. Workshop Introduction
-Follow along with the introductory video (or slides).
-
-### Video
-<iframe height="480" width="853" allowfullscreen frameborder=0 src="https://echo360.ca/media/a65689c0-c35c-4f33-9c12-f0ac97883f54/public?autoplay=false&automute=false"></iframe>
-
-### Slides
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSB6guZ6tdX2wPcsMAzviOOQrcRAeiUNEIAtIRniSx4C3D0Gl35wi60jB5sRlB9eGfs8dVcNvweXxHY/embed?start=false&loop=true&delayms=3000" frameborder="0" width="720" height="434" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <br>
 <br>
-When you're ready, navigate to your [first lesson](lesson1) to start using GitHub.
-
-## 2. [Optional] Introduction to GitHub
-(optional) Watch the following short introductory video ***What is GitHub?***   
-<iframe width="719" height="480" src="https://www.youtube.com/embed/w3jLJU7DT5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br>
-<br>
--->
+Head to the [preparation](preparation) page to get what you need for this module.  

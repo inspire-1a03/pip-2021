@@ -13,7 +13,7 @@ nav_order: 3
 
 ## Install Tableau Public 
 - Sign up for and install [Tableau Public](https://public.tableau.com/en-us/s/)
-- **Note:** If you are interested, students can sign up for the full version of Tableau [here](https://www.tableau.com/academic/students#form)
+- **Note:** If you are interested, students can sign up for the full version of Tableau Desktop [here](https://www.tableau.com/academic/students#form)
 
 ## Create a GitHub account
 - Navigate to [GitHub](https://github.com) and sign up for an account if you don't already have one. 
@@ -32,22 +32,4 @@ nav_order: 3
 - **If you are a Linux user**, GitHub Desktop will not work for you. Instead, you'll need to learn how to install and use git and git Bash. 
 - Navigate to the [official git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and follow the instructions to download and install for your operating system.
 
-When you've finished preparing, navigate to the [the first exercise](exercise1) to get started.
-
-
-<!--
-## Get the data
-
-You will have an opportunity to download the data during the workshop; however, if you would like to do so ahead of time, it can be downloaded [here](https://github.com/scds/intro-tableau/raw/main/data/humdata_GHGEmissionsGES.xlsx).
-
-## Get the software
-This hands-on workshop uses [**Tableau**](https://www.tableau.com/), a software application for data visualization. We ask that you download Tableau in advance of the workshop to be able to participate in it to the fullest extent.
-
-You have three options for downloading Tableau:
-1. [Tableau Public](https://public.tableau.com/en-us/s/) (limited version)
-2. A 14-day trial of [Tableau Desktop](https://www.tableau.com/products/trial)
-3. A 1-year instructor or student license for [Tableau Desktop for academic purposes](https://www.tableau.com/academic/teaching) 
-
-The three options will be discussed further during the workshop; for now, we recommend Tableau Public or the 14-day trial of Tableau Desktop. Please contact the [Sherman Centre](mailto:scds@mcmaster.ca) if you have any difficulties downloading or opening the software.
-
--->
+**Ready to get started?** Navigate to the the [first exercise](exercise1) to begin.

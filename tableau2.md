@@ -44,13 +44,14 @@ You will have probably noticed that data is very noisy, which makes it difficult
   - Change the ```Average``` to use 4 previous values and 4 next values. This creates 1 9-period, centred moving average. 
   - Close the editor and observe the smoothed data. 
 
-### Explore the data  
+### Inspect the trends 
 1. Click on individual lines in the chart (or the titles in the legend) to view one series at a time. 
   - Are there any distinct trends amongst the time series? 
   - Are there any regions with a distinctly different pattern than the others? 
   - Does there appear to be bad (or missing) data anywhere in the time series? How would you identify this? How might you deal with this? 
 1. Note that Canada appears as ```Null``` in the legend. 
   - Right Click on ```Null``` in the legend and select ```Edit Alias```. Change the name to ```Canada```.
+  - Rename the legend to ```Region```
   
 ### Scrutinize your visualization
 1. Think back to the questions from the [previous lesson](tableau1#scrutinize-your-visualization). What are you trying to convey with this visualization? Are there a few regional time series that illustrate your main point well, or do you need all of them? 
@@ -63,3 +64,17 @@ You will have probably noticed that data is very noisy, which makes it difficult
 1. From the top menu, go to ```Format > Title and Caption``` to add a title and a caption (if desired)
 1. From the top menu, go to```Format > Font``` to adjust font size and type. Click through the ```Fields``` list and set the font characteristics (if desired). 
 
+### Create, publish, embed your dashboard.
+- Follow the guidance from [lesson 1](tableau1) to turn your chart into a published dashboard and embed it into your project website. 
+
+## 4. Compare mobility trends between Ontario counties/municipalities
+We'll again tackle a question that was originally addressed using Google Sheets in the [Extra Stuff](google-sheets4) section of Exercise 1: 
+
+> Q: How has travel to parks changed over time in Ontario's counties/municipalities?  
+
+For this example, you can use the instruction provided above to get you most of the way. Just make note of a couple of things: 
+- You'll be using ```Parks Percent Change From Baseline``` instead of ```Retail And Recreation Percent Change From Baseline``` for **Rows**
+- You'll want to drag ```Sub Region 2``` into the **Marks** pane.  
+- You'll want to filter ```Sub Region 1``` to include Ontario only. 
+- The ```Null``` time series is the Ontario average.
+- There are way too many counties/municipalities to explore at once! Narrow this down to only a few by applying a Filter on ```Sub Region 2``` in the **Marks** pane.

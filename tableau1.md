@@ -74,6 +74,7 @@ You can publish your figure (and allow it to be placed into your project website
 1. Edit the title of the map to something like *Vaccinations per 100 people, 21-May, 2021.*
 1. Use the ```Objects``` panel to add additional information to the map. 
   - Add a text box to the bottom of the dashboard (note that you can resize it to take up minimal space). Add some text referring to the source of the data: *Data source: COVID-19 tracker Canada. covid19tracker.ca*. 
+1. From the **Dashboard** pane, you can also adjust the size of your map, if desired.
   
 ### Publish the dashboard
 1. When you are ready to publish your dashboard, click on the **Save the Tableau Public** button ![Save to tableau button icon](assets/img/save-tableau.png). Give the dashboard a unique and descriptive name. You may be prompted to log into your Tableau account.
@@ -82,13 +83,20 @@ You can publish your figure (and allow it to be placed into your project website
 ### Embed your visualization in your GitHub Pages project page
 As demonstrated in [Exercise 2](excercise2), you can insert html code into a markdown file to embed web content. With thanks to [San Wang](https://san-wang.github.io/blog/Embed-Tableau-dashboard-into-github-page-post/) for the guidance, you can do the same with your Tableau dashboard.
 1. Insert the following code into your Markdown file where you would like it to appear: 
+
 ```
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/jbrodeur-vax-rates/Dashboard1?:embed=yes&:display_count=yes&:showVizHome=no" width = '650' height = '450' scrolling='no'></iframe> 
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/jbrodeur-vax-rates/Dashboard1?:embed=yes&:display_count=yes&:showVizHome=no" width = '650' height = '650' scrolling='no'></iframe> 
 ```
+
   - **Note** that the only unique part of the URL is ```jbrodeur-vax-rates/Dashboard1```, which is the name of the dashboard itself. 
   - **Note2:** I suggest always leaving a blank line in your Markdown file above and below the html code. 
 2. Replace the ```jbrodeur-vax-rates/Dashboard1``` part of the URL with the values from your dashboard's URL. 
 3. Commit changes. Wait for the changes to propagate to your GitHub Pages website and inspect. 
+<br>
+This should result in an interactive map that looks something like this: 
+
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/jbrodeur-vax-rates/Dashboard1?:embed=yes&:display_count=yes&:showVizHome=no" width = '650' height = '650' scrolling='no'></iframe> 
+
 <br>
 <br>
 **Finished?** Head to [lesson 2](tableau2) to create some other kinds of charts using your Mobility data. 
