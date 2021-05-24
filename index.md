@@ -17,4 +17,4 @@ Whether they are being relayed to us through news outlets, government agencies, 
 In this module, students will have an opportunity to explore these questions by learning and apply the basics of data analysis and visualization in the service of synthesizing publicly available datasets from sources like Google, the Government of Ontario, and Statistics Canada. Using a variety of free software tools (including Google Sheets, Tableau, and GitHub), students will create a range of interactive charts, maps, and tables that illustrate Ontario’s COVID trends and patterns on a self-built website. 
 <br>
 <br>
-**Want to learn more about this module?** Head to the [introduction](introduction) page.  
+**Ready for the intro?** Head to the [introduction](introduction) page.  
