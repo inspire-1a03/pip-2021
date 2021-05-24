@@ -1,13 +1,9 @@
 ---
 layout: default
-title: Introduction to GitHub
-nav_order: 1
+title: Learn GitHub
+nav_order: 2
 parent: Exercise 2 - GitHub & GitHub Pages
 ---
-
-<!-- Edit the content below for the workshop in question. Once you're ready to publish, remove the comment characters e.g. "<!--" at the start and end -->
-
-<iframe width="1031" height="637" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT0QsBupeGwVggn9tHtI9MtlK9L9dQBbc9Hk7cjbSXR0u3CYAM2YpS6RTyCGhx33mK1cASl0hrnjyFT/pubchart?oid=1991365340&amp;format=interactive"></iframe>
 
 # Lesson 1: Learn GitHub
 In this first lesson, you'll get some introductory experience creating a GitHub repository and populating it with files from the web interface. 

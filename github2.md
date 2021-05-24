@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Learn Markdown
-nav_order: 2
+nav_order: 3
 parent: Exercise 2 - GitHub & GitHub Pages
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GitHub Pages
-nav_order: 3
+nav_order: 4
 parent: Exercise 2 - GitHub & GitHub Pages
 ---
 
@@ -36,7 +36,7 @@ In this step, you will explore some of the functionality available in a GitHub r
   - ```Insights``` shows stats on contributions, viewership, and use of your repository
   - ```Settings``` allows you to configure a variety of other features within your repository
 - Open the ```Settings``` Tab. Briefly explore the various options on the side panel.
-- Go to ```Settings > Options```. Scroll down to the **GitHub Pages** section
+- Go to ```Settings > Pages```.  (Note that this used to be found in the ```Settings > Options``` section). 
   - For the **Source**, set ```Branch:main``` and set the folder to ```/(root)``` and click **Save**. This directs GitHub pages to the top-level of your repository for your website content.
   - Scroll back down and click ```Choose a theme``` to select a theme for your web page
 - Congratulations, your website is ready. The link will be provided in the **GitHub Pages** section.
@@ -56,7 +56,6 @@ title: <your web page title> # EDIT: Fill this in
 description: <description of your web page> # EDIT: Fill this in
 
 remote_theme: pmarsceill/just-the-docs # Borrowing the theme from https://github.com/pmarsceill/just-the-docs
-github_repo_url: "https://github.com/scds/github-pages" # EDIT: REPLACE WITH THE URL TO YOUR WEBPAGE
 
 # Heading anchor links appear on hover over h1-h6 tags in page content
 # allowing users to deep link to a particular heading on a page. (true or false)

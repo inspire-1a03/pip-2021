@@ -1,7 +1,7 @@
 ---
 layout: default
-title: GitHub Desktop
-nav_order: 5
+title: Extra Stuff -- GitHub Desktop
+nav_order: 6
 parent: Exercise 2 - GitHub & GitHub Pages
 ---
 

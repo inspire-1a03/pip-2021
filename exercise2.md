@@ -7,6 +7,10 @@ has_children: true
 
 # Exercise 2: Project websites with GitHub and Markdown
 In this exercise, you'll learn the basics of [GitHub](https://github.com/) and [Markdown](https://guides.github.com/features/mastering-markdown/) as you create a project website to host all of your work from this module.  
+<br>
+- In lessons 1-3, you will work through the basics. 
+- In [lesson 4](github4), you will create your own project website, which will host all of your deliverables from this module. 
+- Lesson 5 is completely optional.
 
 ## What you will need
 - A [GitHub](https://github.com/) account.
@@ -24,7 +28,7 @@ By the end of this tutorial, you will be able to:
 
 ## Deliverables from this exercise
 In this exercise, you will create the following deliverables:
-- Your working project website, which will contain the rest of your analyses.
+- Your working project website, which will contain all of the deliverables from this module.
 
 **IMPORTANT:** as part of this exercise, you will populate your project website with the deliverables you created using Google Sheets in [Exercise 1](exercise1). 
 <br>
