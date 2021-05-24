@@ -25,15 +25,20 @@ From the [Tableau Public](https://public.tableau.com/en-us/s/) website:
 1. Download and install Tableau Public.
 
 ## Exercise objectives 
-- 
+By the end of this exercise, you will be able to: 
+- Explain what Tableau Public/Desktop is and how it can be applied in an inquiry setting.
+- Connect data to Tableau to allow for analysis and visualization.
+- Navigate the Tableau interface to perform analyses and visualization.
+- Describe and apply the primary considerations of developing visualizations.
+- Create and publish interactive maps and charts.
 
 ## Deliverables from this exercise
 In this exercise, you will create the following deliverables:
-- From Lesson 1, **3 figures** with summaries and **1 table**.
-- From Lesson 2, **1 figure** with a summary. 
-- Your responses to the questions provided on the [Reflection](google-sheets3) page.
+- From Lesson 1, **1 figure**.
+- From Lesson 2, **2 figures** with summaries. 
+- Your responses to the questions provided on the [Reflection](tableau3) page.
 
-**IMPORTANT:** you will insert all of these deliverables into the project website you'll create during [Exercise 2](exercise2). 
+**IMPORTANT:** you will insert all of these deliverables into the project website you created during [Exercise 2](exercise2). 
 <br>
 <br>
-**Ready to begin this exercise?** Head to the [First lesson](google-sheets1). 
+**Ready to begin this exercise?** Head to the [First lesson](tableau1). 

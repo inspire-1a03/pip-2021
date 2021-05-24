@@ -16,3 +16,5 @@ To merge these two datasets across Google Sheets, you will want to follow the fo
  
 ## In Tableau
 
+- Download the datasets you want to merge from each Google Sheet 
+  - e.g. The ```National``` tab of the Case and Vaccination Google sheet 
