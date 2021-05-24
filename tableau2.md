@@ -49,10 +49,17 @@ You will have probably noticed that data is very noisy, which makes it difficult
   - Are there any distinct trends amongst the time series? 
   - Are there any regions with a distinctly different pattern than the others? 
   - Does there appear to be bad (or missing) data anywhere in the time series? How would you identify this? How might you deal with this? 
+1. Note that Canada appears as ```Null``` in the legend. 
+  - Right Click on ```Null``` in the legend and select ```Edit Alias```. Change the name to ```Canada```.
+  
+### Scrutinize your visualization
+1. Think back to the questions from the [previous lesson](tableau1#scrutinize-your-visualization). What are you trying to convey with this visualization? Are there a few regional time series that illustrate your main point well, or do you need all of them? 
+1. If desired, remove a few of the provincial/territorial lines so that you can communicate your story more clearly.
+  - Click on a time series that you want to remove in the legend, and select ```Exclude```. 
 
+### Style your chart
+1. Explore the **Marks** area to edit the presentation of data in the chart.
+1. Double-click axes to edit titles and adjust ranges and tick marks. 
+1. From the top menu, go to ```Format > Title and Caption``` to add a title and a caption (if desired)
+1. From the top menu, go to```Format > Font``` to adjust font size and type. Click through the ```Fields``` list and set the font characteristics (if desired). 
 
-
-	
-- Right Click on ```Null``` in the legend and select ```Edit Alias```. Change the name to ```Canada```.
-	
-- From the **Tables** pane, drag date into the **Columns** window
