@@ -120,7 +120,7 @@ In a couple of sentences, summarize the trends shown in the chart. Are there dis
 
 ## 6. Compare current state of vaccinations across regions
 
-> Q4: What is the current state of vaccinations between provinces and territories right now?  
+> Q4: What is the current state of vaccinations among provinces and territories?  
 
 In this analysis, you are going to create a **table** of ```vaccinations per 100 people``` values as they currently stand for each Province and Territory. Essentially, this will be a table version of the last points in the previously-created figure. 
 
