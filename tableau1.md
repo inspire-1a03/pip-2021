@@ -58,7 +58,7 @@ There isn't as much to style in a choropleth map as compared to a line chart or 
     - Experiment with different colour palettes. What is an appropriate colour scale for this kind of information?
 	- You can also experiment with opacity of the map layer. How much of the underlying basemap do you want to show through? 
     - Regardless of the palette you use, you will probably observe that there is not much variability being shown between the provinces. Since the territories have a much higher rate of vaccination than the provinces, most of the colour range is unused between them and the lower-valued provinces. You can change this by adjusting the values at which the colour range is at its minimum and maximum. 
-      - Click ```Advanced``` and edit the ```End``` of the colour range to be something around 80 -- this will show the differences between provinces better (at the expense of making all of the territories the same colour). 
+      - Click ```Advanced``` and edit the ```End``` of the colour range to be something around 70 -- this will show the differences between provinces better (at the expense of making all of the territories the same colour). 
   - Click ```OK```.
 1. You can edit the content of the pop-up window that shows when the user hovers over a region. To do this, in the **Marks** pane, click ```Tooltip```, and use the editor to change the tooltip appearance, add, or remove content.
 1. To change the basemap that is displayed underneath your data layer, on the top toolbar click ```Map > Background Maps``` and select one that is desirable. 
