@@ -5,7 +5,7 @@ nav_order: 5
 has_children: true
 ---
 
-# Exercise 2: Project websites with GitHub and Markdown
+# Exercise 2: Project websites with GitHub, Markdown, and GitHub Pages
 In this exercise, you'll learn the basics of [GitHub](https://github.com/) and [Markdown](https://guides.github.com/features/mastering-markdown/) as you create a project website to host all of your work from this module.  
 <br>
 - In lessons 1-3, you will work through the basics. 
