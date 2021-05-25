@@ -6,6 +6,16 @@ nav_order: 2
 
 # Module Introduction
 
+## Introductory Video
+***video coming soon***
+
+Important points: 
+- Everything you need to complete this module is either on this website, or explained/linked to from here. Be sure to read these pages thoroughly.
+- Most lessons consist of both text and video instructions. Sometimes I miss things in the videos. **If you are following along with videos, please also read the text instructions briefly to ensure that I did not miss anything**
+- If you have a small / easy to answer question, please feel free to ask it in the Teams channel for this module. Others may have a similar question. 
+- If you have an involved / complicated question, it's best to leave it until the drop-in sessions.
+- For Exercise 2 (GitHub, Markdown, GitHub Pages), I have repurposed a previous workshop for lessons 1, 2, and 3. Please disregard anything that isn't entirely relevant to this module.  
+
 ## Module Objectives
 1.	Promote awareness of a variety of publicly available datasets and data sources; improve understanding of their uses and limitations.
 2.	Using hands-on, step-by-step instruction, develop analysis and visualization skills using a variety of free applications (Google Sheets, Tableau, GitHub)
