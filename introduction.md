@@ -7,7 +7,7 @@ nav_order: 2
 # Module Introduction
 
 ## Introductory Video
-***video coming soon***
+<iframe height="540" width="853" allowfullscreen frameborder=0 src="https://echo360.ca/media/438a0d58-2fd0-488c-9653-207673da433c/public?autoplay=false&automute=false"></iframe>
 
 Important points: 
 - Everything you need to complete this module is either on this website, or explained/linked to from here. Be sure to read these pages thoroughly.
