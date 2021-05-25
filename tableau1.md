@@ -8,6 +8,9 @@ parent: Exercise 3 - Tableau
 # Getting started with Tableau
 In this exercise, you'll use the COVID-19 data from Exercise 1 (Cases and Vaccinations; Mobility) to learn some of the basics of uploading, manipulating, analyzing, and plotting data in Tableau. 
 
+## Lesson Video
+<iframe height="540" width="853" allowfullscreen frameborder=0 src="https://echo360.ca/media/00d0f947-6f08-4073-9c4d-ef529a2a92f3/public?autoplay=false&automute=false"></iframe>
+
 ## 1. Create a choropleth map of regional vaccination data 
 
 In this example, you will revisit Question 4 from [first lesson](google-sheets1) of your Google Sheets Exercise by uploading the ```provincial-vaccinations.csv``` table that you created into Tableau and creating a [choropleth map](https://www.arcgis.com/apps/MapJournal/index.html?appid=75eff041036d40cf8e70df99641004ca) that shades each province or territory with a different colour depending on the number of vaccinations given per 100 people.

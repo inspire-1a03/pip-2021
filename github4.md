@@ -8,6 +8,9 @@ parent: Exercise 2 - GitHub & GitHub Pages
 # Lesson 4: Create your project website
 In this lesson, you will build upon what you learned in the previous lessons to begin assembling the project website that you will use to share all of your deliverables from this module (and this is what you'll be graded on). 
 
+## Lesson Video
+<iframe height="540" width="853" allowfullscreen frameborder=0 src="https://echo360.ca/media/026e54f7-2cd4-4774-b665-4ecc2f332b7e/public?autoplay=false&automute=false"></iframe>
+
 ## Creating your pages
 Getting started is pretty easy: 
 1. Ensure you are logged into your GitHub account

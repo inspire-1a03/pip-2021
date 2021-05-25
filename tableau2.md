@@ -8,6 +8,9 @@ parent: Exercise 3 - Tableau
 # Creating charts with Tableau
 In this lesson, we will revisit the Mobility data from your [Google Sheets exercises](exercise1) to create charts using Tableau. 
 
+## Lesson Video
+<iframe height="540" width="853" allowfullscreen frameborder=0 src="https://echo360.ca/media/6425cb79-b83f-4f0a-8c97-0b683d455596/public?autoplay=false&automute=false"></iframe>
+
 ## 1. Download your mobility data as a csv file
 For use in Tableau, you can download the original ```All Data``` table, which is in long format. Tableau handles long data quite well.
 1. Navigate to your Mobility data Google Sheet. From the ```All Data``` sheet, click ```File > Download > Comma-separated values (.csv, current sheet)```. 

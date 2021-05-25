@@ -10,6 +10,9 @@ In this exercise, we're using data from [COVID-19 Tracker Canada](https://covid1
 
 In following the steps below, you'll create a number of charts and tables in a Google Sheet. For now, these will remain in your Google Sheet. In Exercise 2, however, you will learn how to move these products into an interactive web page that you will build yourself! Follow along with the steps below
 
+## Lesson Video
+<iframe height="540" width="853" allowfullscreen frameborder=0 src="https://echo360.ca/media/45a0f17c-3358-4870-8e49-2d947e97023a/public?autoplay=false&automute=false"></iframe>
+
 ## 1. Get the data 
 
 1. The data can be downloaded from the bottom of the main page of the COVID-19 Tracker Canada site. For the purpose of this lesson, however, the data has already been downloaded and prepared for you. 

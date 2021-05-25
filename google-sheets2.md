@@ -13,6 +13,9 @@ We can use this data to explore Canadians' changing activities during various st
 
 **Note** that we're only going to do a bit of analysis on this dataset--the rest will be carried out in Tableau during [Exercise 3](exercise3).
 
+## Lesson Video
+<iframe height="540" width="853" allowfullscreen frameborder=0 src="https://echo360.ca/media/1859802c-e1e7-48e6-86a7-b3036548c4af/public?autoplay=false&automute=false"></iframe>
+
 ## 1a. Get the data
 
 ### The easy way (recommended)
@@ -31,10 +34,12 @@ We can use this data to explore Canadians' changing activities during various st
 1. Go to ```File > Import``` and upload the combined mobility file. 
 1. In the Import File box, select the following: 
   - ```Import location``` : ```Replace spreadsheet```
-  - ```Separator type``` : ```Detect automatically```
+  - ```Separator type``` : ```Detect automatically```  
+  
 <img src="assets/img/import-file.png" alt="Google sheets import dialog box" width="300" style="border: 1px solid darkgrey">  
-1. Click ```Import data```
-1. Rename the sheet/tab to ```All Data```
+
+9. Click ```Import data```
+10. Rename the sheet/tab to ```All Data```
 
 ## 2. Explore the data
 - Take a few minutes to explore the data in the Google Sheet. Refer to the [documentation](https://support.google.com/covid19-mobility/answer/9824897?hl=en&ref_topic=9822927) to better understand how this data has been collected, derived, and presented, and to begin considering any limitations or weaknesses this data set may have. 
