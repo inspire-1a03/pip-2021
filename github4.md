@@ -8,6 +8,13 @@ parent: Exercise 2 - GitHub & GitHub Pages
 # Lesson 4: Create your project website
 In this lesson, you will build upon what you learned in the previous lessons to begin assembling the project website that you will use to share all of your deliverables from this module (and this is what you'll be graded on). 
 
+## Important Note / Update
+After completing step 2 in the [*Creating your pages*](#creating-your-pages) section below to create your project GitHub repository using the provided link. Go to the main page of your new repository and click the ![GitHub star button](assets/img/star-button.png) to star the repository. 
+- This will help you find your repository later--for some strange reason, your project repository will not show up in your list of repositories
+- Instead, you can find this repository in the future by clicking on your profile icon (top-right corner) and selecting to show ```Your stars```.
+
+<img src="assets/img/your-stars.png" alt="Save file as csv" width="400" style="border: 1px solid darkgrey">  
+
 ## Lesson Video
 <iframe height="540" width="853" allowfullscreen frameborder=0 src="https://echo360.ca/media/026e54f7-2cd4-4774-b665-4ecc2f332b7e/public?autoplay=false&automute=false"></iframe>
 
