@@ -13,7 +13,7 @@ After completing step 2 in the [*Creating your pages*](#creating-your-pages) sec
 - This will help you find your repository later--for some strange reason, your project repository will not show up in your list of repositories
 - Instead, you can find this repository in the future by clicking on your profile icon (top-right corner) and selecting to show ```Your stars```.
 
-<img src="assets/img/your-stars.png" alt="Save file as csv" width="400" style="border: 1px solid darkgrey">  
+<img src="assets/img/your-stars.png" alt="Show your starred repositories in GitHub" width="400" style="border: 1px solid darkgrey">  
 
 ## Lesson Video
 <iframe height="540" width="853" allowfullscreen frameborder=0 src="https://echo360.ca/media/026e54f7-2cd4-4774-b665-4ecc2f332b7e/public?autoplay=false&automute=false"></iframe>
