@@ -42,7 +42,7 @@ Let's begin by making some straightforward plots of some of the variables in the
 > Q1: How has daily COVID-19 cases, hospitalizations and deaths changed in Canada over time since the beginning of the pandemic? 
 
 1. In the ```National``` sheet, plot the variable ```data >> change_cases``` (column D). Highlight column D (by clicking on the "D" at the top)
-1. Click ```Insert > Chart```, or click the chart icon ![Google Sheets Chart Icon](assets/img/chart-icon.png) A plot of 
+1. Click ```Insert > Chart```, or click the chart icon ![Google Sheets Chart Icon](assets/img/chart-icon.png). A plot will appear.
 1. When the chart's ```Setup``` pane appears, make a few modifications: 
   - Modify the value in the ```Data range``` box to include all data in the sheet (```A1:Y484```). This will save us some time later. 
   - Click the ```X-axis``` box and add the ```data >> date``` variable (i.e. Column C). This will add dates to the bottom of the figure. - add hospitalizations (column P) and deaths (Column E) data.
